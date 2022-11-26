@@ -42,7 +42,7 @@ def calculate_distance_view(request: HttpRequest):
         # destination coordinates
         d_lat = destination.latitude
         d_long = destination.longitude
-        
+
         pointB = (d_lat, d_long)
 
         # distance calculation
